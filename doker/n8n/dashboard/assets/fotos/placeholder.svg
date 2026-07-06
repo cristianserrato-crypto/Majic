@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Majic.3D</title>
+  <desc id="desc">Espacio reservado para foto de proyecto de impresion 3D</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10141c"/>
+      <stop offset="0.52" stop-color="#14201f"/>
+      <stop offset="1" stop-color="#161c28"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v64" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <rect width="900" height="900" fill="url(#grid)"/>
+  <circle cx="696" cy="172" r="210" fill="#2dd4bf" opacity=".08"/>
+  <circle cx="190" cy="706" r="240" fill="#818cf8" opacity=".08"/>
+  <g filter="url(#shadow)">
+    <path d="M450 210 655 328v236L450 682 245 564V328z" fill="#0b0f14" stroke="url(#accent)" stroke-width="12"/>
+    <path d="M450 210v236m0 0 205-118M450 446 245 328" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".82"/>
+    <path d="M330 512h240M365 562h170" fill="none" stroke="#ffffff" stroke-opacity=".2" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <text x="450" y="760" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="54" font-weight="700" fill="#eef2f7">Majic.3D</text>
+  <text x="450" y="812" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="25" font-weight="500" fill="#8b95a8" letter-spacing="4">IMPRESION 3D</text>
+</svg>
